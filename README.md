@@ -16,7 +16,7 @@ The project automates the classification of financial analyst rating headlines b
 ---
 
 ## 📂 Repository Structure
-<pre> <code> 📁 Final_Project/ ├── 📁 api/ │ ├── __init__.py │ ├── 📁 app/ │ │ ├── __init__.py │ │ ├── inference.py │ │ ├── main.py │ │ ├── model_loader.py │ │ ├── test_azure_basic.py │ │ ├── test_ner_payload.json │ │ ├── test_ner_ping.py │ │ └── requirements.txt ├── 📁 models/ │ ├── label_encoder.pkl │ ├── risk_classifier.pkl │ ├── risk_cutoff.npy │ ├── risk_model_bal.joblib │ ├── vectorizer.pkl │ └── xgboost_sentiment_model.joblib ├── 📁 src/ │ ├── __init__.py │ ├── azure_ner.py │ ├── model_training.py │ ├── preprocessing.py │ └── utils.py ├── Dockerfile ├── README.md └── requirements.txt </code> </pre>
+![Repo Structure](https://raw.githubusercontent.com/aimldstejas/Risk_and_Sentiment_Intelligence_Engine/main/path-to-image.png)
 
 ---
 
